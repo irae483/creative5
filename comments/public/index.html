@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Comments!</title>
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<script src="javascripts/comments.js"></script>
+</head>
+<h1>
+    ADDRESS BOOK
+</h1>
+<body>
+<form id="commentForm" action="">
+<label for="firstName">First Name: </label><input type="text" id="firstName" placeholder="First Name"><br>
+<label for="lastName">Last Name: </label><input type="text" id="lastName" placeholder="First Name"><br>
+<label for="street">Street: </label><input type="text" id="street" placeholder="Street"><br>
+<label for="city">City: </label><input type="text" id="city" placeholder="City"><br>
+<label for="state">State: </label><input type="text" id="state" placeholder="State"><br>
+<label for="zipCode">Zip Code: </label><input type="text" id="zipCode" placeholder="ZipCode"><br>
+<label for="phoneNumber">Phone Number: </label><input type="text" id="phoneNumber" placeholder="Phone Number"><br>
+<label for="email">Email: </label><input type="text" id="email" placeholder="Email"><br>
+<label for="querry">Search: </label><input type="text" id="querry" placeholder="Search"><br>
+</form>
+
+<button id="postComment">Save Address</button>
+<button id="getComments">Get Addresses</button>
+<button id="deleteComments">Delete All</button><br>
+<button id="querryFirst">Search First Name</button>
+<button id="querryLast">Search Last Name</button>
+<button id="querryStreet">Search Street</button>
+<button id="querryCity">Search City</button>
+<button id="querryState">Search State</button>
+<button id="querryZip">Search Zip Code</button>
+<button id="querryPhone">Search Phone Number</button>
+<button id="querryEmail">Search Email</button>
+
+
+<div id="json"></div>
+<div id="done"></div>
+<div id="comments"></div>
+</body>
+</html>
